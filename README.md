@@ -1,2 +1,2 @@
 # TacoDebacle
-Spring Boot app for taco lovers
+Spring Boot app for taco Taco Aficionados
