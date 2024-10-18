@@ -16,12 +16,10 @@ class HomeControllerTest {
 
     @Test
     public void testHomePage() throws Exception {
-        System.out.println("LOL");
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("home"))
                 .andExpect(content().string(
                         containsString("Welcome to the chaos and fun of Taco Debacle. Enjoy your experience!")));
     }
-
 }
